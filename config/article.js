@@ -18,13 +18,13 @@ export default () => ({ // eslint-disable-line
            'and murder respectable, and to give an appearance of solidity to pure wind',
 
   topic: {
-    name: 'Starter Kit',
-    url: '/foo',
+    name: 'FT Alphaville',
+    url: 'https://ftalphaville.ft.com/',
   },
 
   relatedArticle: {
-    text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+    // text: 'Related article »',
+    // url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
   },
 
   mainImage: {
@@ -39,8 +39,7 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Author One', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Alexandra Scaggs', url: 'https://ftalphaville.ft.com/author/Alexandra%20Scaggs' },
   ],
 
   // Appears in the HTML <title>

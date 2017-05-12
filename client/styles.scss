@@ -1,22 +1,32 @@
 @import 'o-colors/main';
 @import 'components/core/main';
 
-/*
-      TODO: delete this comment
-
-      Write your code here - keep it neat!
-      Split logical parts of you project into components e.g.
-
-      /client
-        - /components
-            - /component-name
-                - styles.scss
-                - index.js
-                - template.html
-*/
+@function getColor($args...) {
+  @return oColorsGetPaletteColor($args...);
+}
 
 .g-audio.g-audio--initialized .g-audio--playbutton:before,
 .g-audio.g-audio--initialized.pause .g-audio--playbutton:before {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.annotation-container {
+  padding: 1em 0;
+  margin: 1em 0;
+  border-bottom: 1px solid getColor('pink-tint3');
+
+  p.lyric-quote:before {
+    content: "“";
+    font-size: 3em;
+    line-height: 0;
+    vertical-align: bottom;
+  }
+
+  p.lyric-quote:after {
+    content: "”";
+    font-size: 3em;
+    line-height: 0;
+    vertical-align: bottom;
+  }
 }

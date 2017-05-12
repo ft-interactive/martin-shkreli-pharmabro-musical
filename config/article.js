@@ -40,6 +40,7 @@ export default () => ({ // eslint-disable-line
   // if array of authors, url is optional
   byline: [
     { name: 'Alexandra Scaggs', url: 'https://ftalphaville.ft.com/author/Alexandra%20Scaggs' },
+    { name: 'Joanna S Kao', url: 'https://www.ft.com/stream/authorsId/NWRlMDQ0Y2MtODA3Mi00N2VlLWEyZGItNWRmYTZhNDNiNWNi-QXV0aG9ycw==' },
   ],
 
   // Appears in the HTML <title>

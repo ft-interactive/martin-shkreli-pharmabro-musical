@@ -2,7 +2,7 @@
 
 {% block article_body %}
 
-{{ data.body.intro }}
+{{ data.body.intro | safe }}
 
 {% for annotation in data.annotations %}
 <div class="annotation-container">
@@ -18,6 +18,6 @@
 </div>
 {% endfor %}
 
-{{ data.body.outro }}
+{{ data.body.outro | safe }}
 
 {% endblock %}

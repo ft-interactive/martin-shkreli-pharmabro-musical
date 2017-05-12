@@ -8,13 +8,25 @@
 .g-audio.g-audio--initialized .g-audio--playbutton:before,
 .g-audio.g-audio--initialized.pause .g-audio--playbutton:before {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.2em;
 }
 
 .annotation-container {
-  padding: 1em 0;
+  padding: 1em;
   margin: 1em 0;
   border-bottom: 1px solid getColor('pink-tint3');
+
+  background: #FDF8F2;
+  box-shadow: 0 1px 2px 1px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+
+  p.lyric-quote {
+    font-size: 1.5em;
+    font-family: MetricWeb, sans-serif;
+    text-align: center;
+  }
 
   p.lyric-quote:before {
     content: "“";

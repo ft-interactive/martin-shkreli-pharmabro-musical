@@ -23,7 +23,7 @@ export default async () => {
     description: data.metadata.description || '',
     socialImage: data.metadata.socialImage || '',
     socialHeadline: data.metadata.socialHeadline || '',
-    socialSummary: data.metadata.socialSummary || '',
+    socialDescription: data.metadata.socialSummary || '',
     twitterImage: data.metadata.twitterImage || '',
     twitterText: data.metadata.twitterText || '',
     twitterHeadline: data.metadata.twitterHeadline || '',

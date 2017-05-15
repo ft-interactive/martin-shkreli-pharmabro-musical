@@ -13,23 +13,33 @@
 
 #annotation-wrapper {
   margin: 3em 0 3em 0;
-  border-top: 1px solid getColor('pink-tint3');
+
+  .annotation-separator {
+    border-bottom: 1px solid getColor('pink-tint3');
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .annotation-container {
     padding: 1em;
     margin: 1em 0;
-    border-bottom: 1px solid getColor('pink-tint3');
-
-    // background: #FDF8F2;
-    // box-shadow: 0 1px 2px 1px rgba(0,0,0,0.15);
-    // border-radius: 4px;
     box-sizing: border-box;
     position: relative;
 
+    p {
+      max-width: 425px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     p.lyric-quote {
+      max-width: 700px;
       font-size: 1.8em;
       font-family: MetricWeb, sans-serif;
       text-align: center;
+      font-weight: 500;
+      letter-spacing: .005px;
     }
 
     p.lyric-quote:before {
@@ -37,7 +47,8 @@
       font-size: 3em;
       line-height: 0.1em;
       vertical-align: bottom;
-      color: getColor('grey-tint4');
+      color: getColor('pink-tint4');
+      font-family: FinancierDisplayWeb, Georgia, serif;
     }
 
     p.lyric-quote:after {
@@ -45,7 +56,19 @@
       font-size: 3em;
       line-height: 0.1em;
       vertical-align: bottom;
-      color: getColor('grey-tint4');
+      color: getColor('pink-tint4');
+      font-family: FinancierDisplayWeb, Georgia, serif;
+    }
+  }
+
+  .annotation-container--noaudio {
+    p.lyric-quote {
+      line-height: 1.2em;
+    }
+
+    p.lyric-quote:before,
+    p.lyric-quote:after {
+      line-height: 0;
     }
   }
 }

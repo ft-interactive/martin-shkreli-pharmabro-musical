@@ -16,15 +16,15 @@
   <div class="annotation-separator"></div>
   {% for annotation in data.annotations %}
   <div class="annotation-container {% if annotation.audiourl == null %}annotation-container--noaudio{% endif %}">
-  	<p class="lyric-quote">
-  		{% if annotation.audiourl %}
-  		<span class="g-audio">{{ annotation.lyric }}<audio controls=""><source src="{{ annotation.audiourl }}" type="audio/mpeg"></source></audio></span>
-  		{% else %}
-  		{{ annotation.lyric }}
-  		{% endif %}
-  	</p>
+    <p class="lyric-quote">
+      {% if annotation.audiourl %}
+      <span class="g-audio">{{ annotation.lyric }}<audio controls=""><source src="{{ annotation.audiourl }}" type="audio/mpeg"></source></audio></span>
+      {% else %}
+      {{ annotation.lyric }}
+      {% endif %}
+    </p>
 
-  	{{ annotation.annotation | md }}
+    {{ annotation.annotation | md }}
   </div>
   <div class="annotation-separator"></div>
   {% endfor %}

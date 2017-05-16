@@ -1,7 +1,7 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '',
+  id: '5ae0ac20-39c6-11e7-821a-6027b8a20f23',
 
   // canonical URL of the published page
   // https://ig.ft.com/martin-shkreli-pharmabro-musical get filled in by the ./configure script

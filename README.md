@@ -1,6 +1,6 @@
-# [martin-shkreli-pharma-bro-musical](https://ig.ft.com/martin-shkreli-pharma-bro-musical)
+# [martin-shkreli-pharmabro-musical](https://ig.ft.com/martin-shkreli-pharmabro-musical)
 
-> 
+>
 
 [![Build Status][circle-image]][circle-url] [![Dependency Status][devdeps-image]][devdeps-url]
 
@@ -33,8 +33,8 @@ This software is published by the Financial Times under the [MIT licence](http:/
 Please note the MIT licence includes only the software, and does not cover any FT content made available using the software, which is copyright &copy; The Financial Times Limited, all rights reserved. For more information about re-publishing FT content, please contact our [syndication department](http://syndication.ft.com/).
 
 <!-- badge URLs -->
-[circle-url]: https://circleci.com/gh/ft-interactive/martin-shkreli-pharma-bro-musical
-[circle-image]: https://circleci.com/gh/ft-interactive/martin-shkreli-pharma-bro-musical/tree/master.svg?style=shield
+[circle-url]: https://circleci.com/gh/ft-interactive/martin-shkreli-pharmabro-musical
+[circle-image]: https://circleci.com/gh/ft-interactive/martin-shkreli-pharmabro-musical/tree/master.svg?style=shield
 
-[devdeps-url]: https://david-dm.org/ft-interactive/martin-shkreli-pharma-bro-musical#info=devDependencies
-[devdeps-image]: https://img.shields.io/david/dev/ft-interactive/martin-shkreli-pharma-bro-musical.svg?style=flat-square
+[devdeps-url]: https://david-dm.org/ft-interactive/martin-shkreli-pharmabro-musical#info=devDependencies
+[devdeps-image]: https://img.shields.io/david/dev/ft-interactive/martin-shkreli-pharmabro-musical.svg?style=flat-square

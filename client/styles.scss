@@ -32,6 +32,11 @@
   margin-bottom: 0.3em;
 }
 
+.g-audio.g-audio--initialized .g-audio--playbutton:focus {
+  outline: 3px solid #932f50;
+  outline-offset: 1px;
+}
+
 #wrapper {
   position: fixed;
   bottom: 0px;

@@ -5,10 +5,81 @@
   @return oColorsGetPaletteColor($args...);
 }
 
+/* safari and chrome */
+@-webkit-keyframes wiggle {
+	0% {-webkit-transform:rotate(5deg);}
+	50% {-webkit-transform:rotate(-5deg);}
+	100% {-webkit-transform:rotate(5deg);}
+}
+
+/* firefox */
+@-moz-keyframes wiggle {
+	0% {-moz-transform:rotate(5deg);}
+	50% {-moz-transform:rotate(-5deg);}
+	100% {-moz-transform:rotate(5deg);}
+}
+
+/* anyone brave enough to implement the ideal method */
+@keyframes wiggle {
+	0% {transform:rotate(5deg);}
+	50% {transform:rotate(-5deg);}
+	100% {transform:rotate(5deg);}
+}
+
 .g-audio.g-audio--initialized .g-audio--playbutton:before,
 .g-audio.g-audio--initialized.pause .g-audio--playbutton:before {
   margin-top: 0;
   margin-bottom: 0.3em;
+}
+
+#wrapper {
+  position: fixed;
+  bottom: 0px;
+  height: 39px;
+  width: 100%;
+  background: #fff1e0;
+  z-index: 7;
+}
+
+.g-audio.g-audio--initialized.g-audio--block {
+  width: 100%;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  bottom: -26px;
+
+  .g-audio--playbutton {
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .g-audio-content {
+    width: calc(100% - 77px);
+    height: 19px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  img {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    width: 30px;
+    margin-left: -15px;
+
+    &:hover {
+      -webkit-animation: wiggle 0.5s infinite;
+      -moz-animation: wiggle 0.5s infinite;
+      animation: wiggle 0.5s infinite;
+    }
+  }
+}
+
+.g-audio.g-audio--initialized.g-audio--block.pause img {
+  -webkit-animation: wiggle 0.5s infinite;
+	-moz-animation: wiggle 0.5s infinite;
+	animation: wiggle 0.5s infinite;
 }
 
 #annotation-wrapper {

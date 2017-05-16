@@ -1,19 +1,8 @@
-/*
-  TODO: delete this comment
+const audio = document.querySelector('audio');
 
-  This file is where you bootstrap your JS code
-  For example import stuff here:
+audio.addEventListener('timeupdate', (a) => {
+  const percentProgress = (a.target.currentTime * 100) / a.target.duration;
 
-  import {select} from 'd3-selection';
-  import myComponent from './components/my-component';
-
-  Split logical parts of you project into components e.g.
-
-  /client
-    - /components
-        - /component-name
-            - styles.scss
-            - index.js
-            - template.html
-
-*/
+  const progressImage = document.querySelector('.g-audio--block img');
+  progressImage.style.left = `${Math.min(percentProgress, 98)}%`;
+});

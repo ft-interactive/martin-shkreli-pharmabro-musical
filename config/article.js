@@ -29,9 +29,9 @@ export default () => ({ // eslint-disable-line
 
   mainImage: {
     title: '',
-    description: 'Actor Patrick Swailes Caldwell rides a hoverboard across a theatre stage as Martin Shkreli in "PharmaBro: An American Douchical!"',
-    credit: 'Wendy Gundrum',
-    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F339ef96a-39c5-11e7-821a-6027b8a20f23?source=ig',
+    description: 'Actor Patrick Swailes Caldwell as Martin Shkreli in "PharmaBro: An American Douchical!"',
+    credit: 'Wendy Gundrum/FT montage',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2Fab39a5fc-3a55-11e7-ac89-b01cc67cfeec?source=ig',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },

@@ -1,4 +1,5 @@
 @import 'o-colors/main';
+@import 'o-grid/main';
 @import 'components/core/main';
 
 @function getColor($args...) {
@@ -113,31 +114,43 @@
 
     p.lyric-quote {
       max-width: 700px;
-      font-size: 1.8em;
+      font-size: 1.5em;
       font-family: MetricWeb, sans-serif;
       text-align: center;
       font-weight: 500;
       letter-spacing: .005px;
+
+      @include oGridRespondTo(S) {
+        font-size: 1.8em;
+      }
     }
 
     p.lyric-quote:before {
       content: "“";
-      font-size: 3em;
+      font-size: 2.5em;
       line-height: 0.1em;
       vertical-align: bottom;
       color: getColor('pink-tint4');
       font-family: FinancierDisplayWeb, Georgia, serif;
       font-weight: 600;
+
+      @include oGridRespondTo(S) {
+        font-size: 3em;
+      }
     }
 
     p.lyric-quote:after {
       content: "”";
-      font-size: 3em;
+      font-size: 2.5em;
       line-height: 0.1em;
       vertical-align: bottom;
       color: getColor('pink-tint4');
       font-family: FinancierDisplayWeb, Georgia, serif;
       font-weight: 600;
+
+      @include oGridRespondTo(S) {
+        font-size: 3em;
+      }
     }
   }
 

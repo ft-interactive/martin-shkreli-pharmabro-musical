@@ -5,7 +5,7 @@ export default () => ({ // eslint-disable-line
 
   // canonical URL of the published page
   // https://ig.ft.com/martin-shkreli-pharmabro-musical get filled in by the ./configure script
-  url: 'https://ig.ft.com/martin-shkreli-pharmabro-musical',
+  url: 'https://ig.ft.com/martin-shkreli-pharmabro-musical/',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')

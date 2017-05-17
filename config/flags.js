@@ -3,8 +3,8 @@ const prod = process.env.NODE_ENV === 'production';
 export default () => ({ // eslint-disable-line
   prod,
   errorReporting: prod,
-  analytics: false,
-  googleAnalytics: false,
+  analytics: prod,
+  googleAnalytics: prod,
   ads: true,
   onwardjourney: false,
   shareButtons: true,

@@ -56,7 +56,7 @@ export default () => ({ // eslint-disable-line
         Twitter card docs:
         https://dev.twitter.com/cards/markup
   */
-  twitterCard: 'summary',
+  twitterCard: 'summary_large_image',
 
   /*
   TODO: Do you want to tweak any of the
@@ -70,7 +70,7 @@ export default () => ({ // eslint-disable-line
 
   // TWEET BUTTON CUSTOM TEXT
   // tweetText: '',
-  // twitterRelatedAccounts: ['authors_account_here', 'ftdata'], // Twitter lists these as suggested accounts to follow after a user tweets (do not include @)
+  twitterRelatedAccounts: ['FTAlphaville', 'alexandrascaggs', 'joannaskao', 'ftdata'], // Twitter lists these as suggested accounts to follow after a user tweets (do not include @)
 
   // Fill out the Facebook/Twitter metadata sections below if you want to
   // override the "General social" options above

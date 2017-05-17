@@ -216,7 +216,7 @@ gulp.task('html', () =>
   gulp.src('dist/**/*.html')
     .pipe(inlineSource())
     .pipe(htmlmin({
-      collapseWhitespace: true,
+      collapseWhitespace: false,
       processConditionalComments: true,
     }))
     .pipe(gulp.dest('dist')),

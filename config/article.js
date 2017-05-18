@@ -70,7 +70,7 @@ export default () => ({ // eslint-disable-line
 
   // TWEET BUTTON CUSTOM TEXT
   // tweetText: '',
-  twitterRelatedAccounts: ['FTAlphaville', 'alexandrascaggs', 'joannaskao', 'ftdata'], // Twitter lists these as suggested accounts to follow after a user tweets (do not include @)
+  twitterRelatedAccounts: ['ftalpha', 'alexandrascaggs', 'joannaskao', 'ftdata'], // Twitter lists these as suggested accounts to follow after a user tweets (do not include @)
 
   // Fill out the Facebook/Twitter metadata sections below if you want to
   // override the "General social" options above
